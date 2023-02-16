@@ -122,7 +122,12 @@ public class DemogradlegooglesheetApplication implements CommandLineRunner {
 		data.add(new ValueRange()
 			.setRange("A2")
 			.setValues(Arrays.asList(
-				Arrays.asList("SKU1", 1,"UN"))));
+				Arrays.asList("SKU1", 1,"UN"),
+				Arrays.asList("SKU2", 3,"UN"),
+				Arrays.asList("SKU3", 2,"UN"),
+				Arrays.asList("SKU4", 1,"UN")
+
+				)));
 
 		BatchUpdateValuesRequest batchBody = new BatchUpdateValuesRequest()
 			.setValueInputOption("USER_ENTERED")

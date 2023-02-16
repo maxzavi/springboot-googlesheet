@@ -43,3 +43,4 @@ Scopes by create spreadsheet: **SheetsScopes.SPREADSHEETS**:
 	private static final List<String> SCOPES = Collections.singletonList(SheetsScopes.SPREADSHEETS);
 ```
 
+Every change in SCOPES requires deleting the  **tokens** folder
